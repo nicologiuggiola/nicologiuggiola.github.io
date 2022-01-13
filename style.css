@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.profile-column{
+    background-color: #446DF6;
+    border-radius: 0px 80px 0px 0px;
+    position: absolute;
+    width: 20%;
+    height: 100%;
+}
+
+.contact-link{
+    display: block;
+    text-align: center;
+}
+
+.git-logo{
+    display: block;
+    margin-left: 155px;
+    width: 90px;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+.profile-column p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.my-foto{
+    text-align: center;
+    margin-left: 94px;
+}
+
+nav{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 48%;
+}
+
+.nav-button{
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 0px 10px 0px 0px;
+    background-color: #07978e;
+}
+
+.personal-data{
+    width: auto;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 21%;
+    margin-right: 1%;
+}
+
+.personal-data li{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.work-data{
+    width: auto;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 21%;
+    margin-right: 1%;
+}
+
+.work-data p{
+    margin: 5px;
+    font-size: 18px;
+}
