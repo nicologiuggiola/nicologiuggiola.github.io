@@ -168,7 +168,7 @@ body{
 .item-5{
     grid-area: data;
     margin: 10px;
-    min-width: 560.5px;
+    /*min-width: 560.5px;*/
 }
 
 .item-5 p{
@@ -321,7 +321,7 @@ nav div{
 .item1-1 h1{
     font-family: 'STIX Two Text', serif;
     font-size: 40px;
-    min-width: 560.5px;
+    /*min-width: 560.5px;*/
     margin: 50px 50px 10px 50px;
     max-height: 100px;
 }
@@ -334,7 +334,7 @@ nav div{
 .item1-2{
     grid-area: school;
     margin: 10px;
-    min-width: 560.5px;
+    /*min-width: 560.5px;*/
     border: solid;
     border-color: rgb(153, 173, 173);
     border-radius: 5%;
@@ -357,7 +357,7 @@ nav div{
 .item1-3{
     grid-area: personal;
     margin: 10px;
-    min-width: 560.5px;
+    /*min-width: 560.5px;*/
     border: solid;
     border-color: rgb(153, 173, 173);
     border-radius: 5%;
@@ -375,7 +375,7 @@ nav div{
 .item1-4{
     grid-area: data;
     margin: 10px;
-    min-width: 560.5px;
+    /*min-width: 560.5px;*/
 }
 
 .item1-4 p{
@@ -409,6 +409,25 @@ nav div{
                              "data";
     }
 
+    .child{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .item-0{
+        min-width: 200px;
+        grid-area: column;
+    
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 2fr 1fr 2fr;
+        grid-template-areas: "image"
+                             "infos"
+                             "contacts";
+        border: none;
+        font-family: 'Merriweather Sans', sans-serif;
+    }
+
     .item1-0{
         min-width: 200px;
         grid-area: column;
@@ -420,10 +439,7 @@ nav div{
                              "infos"
                              "contacts"
                              "space";
-        border-right: solid;
-        border-color: rgb(153, 173, 173);
-        border-radius: 0% 5% 5% 0%;
-    
+        border: none;
         font-family: 'Merriweather Sans', sans-serif;
     }
 }
