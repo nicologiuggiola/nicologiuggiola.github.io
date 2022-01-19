@@ -408,4 +408,22 @@ nav div{
                              "personal"
                              "data";
     }
+
+    .item1-0{
+        min-width: 200px;
+        grid-area: column;
+    
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 2fr 1fr 2fr 0px;
+        grid-template-areas: "image"
+                             "infos"
+                             "contacts"
+                             "space";
+        border-right: solid;
+        border-color: rgb(153, 173, 173);
+        border-radius: 0% 5% 5% 0%;
+    
+        font-family: 'Merriweather Sans', sans-serif;
+    }
 }
