@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=STIX+Two+Text&display=swap');
 
+html{
+    height: 100%;
+}
+
 body{
     margin: 0px;
+    height: 100%;
 }
 
 .grid-container{
@@ -82,7 +87,7 @@ body{
 .item-1 h1{
     font-family: 'STIX Two Text', serif;
     font-size: 40px;
-    min-width: 560.5px;
+    /*min-width: 560.5px;*/
     margin: 50px 50px 10px 50px;
     max-height: 100px;
 }
@@ -95,7 +100,7 @@ body{
 .item-2{
     grid-area: school;
     margin: 10px;
-    min-width: 270.25px;
+    /*min-width: 270.25px;*/
     border: solid;
     border-color: rgb(153, 173, 173);
     border-radius: 5%;
@@ -120,7 +125,7 @@ body{
 .item-3{
     grid-area: skill;
     margin: 10px;
-    min-width: 270.25px;
+    /*min-width: 270.25px;*/
     border: solid;
     border-color: rgb(153, 173, 173);
     border-radius: 5%;
@@ -145,7 +150,7 @@ body{
 .item-4{
     grid-area: personal;
     margin: 10px;
-    min-width: 560.5px;
+    /*min-width: 560.5px;*/
     border: solid;
     border-color: rgb(153, 173, 173);
     border-radius: 5%;
@@ -173,7 +178,7 @@ body{
 nav{
     margin-left: auto;
     margin-right: 10px;
-    max-width: 500px;
+    /*max-width: 500px;*/
     display: flex;
     justify-content: center;
     align-content: center;
@@ -375,4 +380,32 @@ nav div{
 
 .item1-4 p{
     font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+@media (max-width: 480px) {
+    .grid-container{
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr 2fr 3fr 3fr 3fr 1fr;
+        grid-template-areas: "header"
+                             "column"
+                             "school"
+                             "skill"
+                             "personal"
+                             "data";
+    }
+
+    .grid-container1{
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr 2fr 3fr 3fr 1fr;
+        grid-template-areas: "header"
+                             "column"
+                             "school"
+                             "personal"
+                             "data";
+    }
 }
